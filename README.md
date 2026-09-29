@@ -70,7 +70,7 @@ flowchart TB
     FM[("Apple Intelligence<br/>(FoundationModels, 온디바이스)")]
 
     CV -- "입력한 문장" --> AM
-    SL -- "\"콜슨\" 호출 + 명령 문장" --> AM
+    SL -- "콜슨 호출 + 명령 문장" --> AM
     AM -- "장면 요청" --> SD
     SD -- "프롬프트" --> FM
     FM -- "구조화된 응답" --> SD
